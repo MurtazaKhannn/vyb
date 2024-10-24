@@ -11,7 +11,7 @@ const Explore = () => {
                 <span className='text-3xl font-bold text-white flex items-center justify-center text-center'>Explore Our Curated Travel Itineraries</span>
 
                 <div className='flex p-8 gap-4 overflow-x-auto items-center justify-start hide-scrollbar'>
-                    {explore.map((e: any, key) => {
+                    {explore.map((e, key) => {
                         return (
                             <div key={key} className='relative w-[17rem] h-[30.2rem] rounded-[1rem] flex-shrink-0'>
                                 <Image src={e.image} width={280} alt='' />

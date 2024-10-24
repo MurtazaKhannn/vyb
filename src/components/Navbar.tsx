@@ -17,7 +17,6 @@ import { Input } from './ui/input'
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog"
 
 const Navbar = () => {
-    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
     return (
         <div className='w-full flex items-center justify-between h-16 bg-transparent lg:px-16'>

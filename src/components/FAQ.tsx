@@ -13,7 +13,7 @@ const FAQ = () => {
 
       <div className='left w-1/2 lg:h-screen lg:gap-10 gap-2 flex flex-col items-center justify-center text-white'>
       <h2 className='uppercase text-green-400 lg:text-4xl text-center font-bold'> Frequently asked <br /> questions</h2>
-      <p className='font-bold lg:text-xs text-[1.5vw]'>Quick answers to questions you may have. Can&apos;t find what <br /> you're looking for? <br />
+      <p className='font-bold lg:text-xs text-[1.5vw]'>Quick answers to questions you may have. Can&apos;t find what <br /> you&apos;re looking for? <br />
       Check out our full documentation.</p>
       </div>
 
@@ -23,7 +23,7 @@ const FAQ = () => {
       <AccordionItem value="item-1">
         <AccordionTrigger>Do I need technical skills to use the platform?</AccordionTrigger>
         <AccordionContent>
-            No, not at all! Our platform is designed with user-friendliness in mind. You can easily navigate and set up your store without any technical expertise. It's as simple as a few clicks to get started!        </AccordionContent>
+            No, not at all! Our platform is designed with user-friendliness in mind. You can easily navigate and set up your store without any technical expertise. It&apos;s as simple as a few clicks to get started!        </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-2">
         <AccordionTrigger>Is it styled?</AccordionTrigger>
