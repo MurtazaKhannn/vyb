@@ -8,17 +8,17 @@ import {
 
 const FAQ = () => {
   return (
-    <div className='w-full h-full flex lg:flex-row flex-col items-center justify-center gap-4'>
+    <div className='w-full h-full flex lg:flex-row flex-col items-center mb-4 mt-2 justify-center gap-4'>
 
 
-      <div className='left w-1/2 lg:h-screen lg:gap-10 gap-2 flex flex-col items-center justify-center text-white'>
-      <h2 className='uppercase text-green-400 lg:text-4xl text-center font-bold'> Frequently asked <br /> questions</h2>
-      <p className='font-bold lg:text-xs text-[1.5vw]'>Quick answers to questions you may have. Can&apos;t find what <br /> you&apos;re looking for? <br />
+      <div className='left lg:w-1/2 w-[80vh] lg:h-screen lg:gap-10 gap-2 flex flex-col items-center justify-center text-white'>
+      <h2 className='uppercase text-green-400 lg:text-4xl text-center font-bold text-[1.3rem]'> Frequently asked <br /> questions</h2>
+      <p className='font-bold lg:text-xs text-[2vw]'>Quick answers to questions you may have. Can&apos;t find what <br /> you&apos;re looking for? <br />
       Check out our full documentation.</p>
       </div>
 
 
-      <div className='right w-1/2 lg:h-screen text-black flex items-center justify-center'>
+      <div className='right lg:w-1/2 w-[80vw] lg:h-screen text-black flex items-center justify-center'>
       <Accordion type="single" collapsible className="w-full">
       <AccordionItem value="item-1">
         <AccordionTrigger>Do I need technical skills to use the platform?</AccordionTrigger>

@@ -8,7 +8,7 @@ import data from "@/assets/data.png"
 
 const Card = () => {
   return (
-    <div className='w-full h-[70vh] overflow-y-auto hide-scrollbar p-20'>
+    <div className='w-full lg:h-[70vh] overflow-y-auto hide-scrollbar p-20'>
       <div className='flex flex-col items-center justify-center gap-10'>
 
         <div className='flex flex-col md:flex-row h-auto lg:h-[50vh] w-full md:w-[50vw] bg-red-400 rounded-[1rem] sticky top-0 p-4'>
