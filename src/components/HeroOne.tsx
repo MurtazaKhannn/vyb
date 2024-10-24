@@ -1,7 +1,6 @@
 'use client'
 
 import React from 'react'
-import { Button } from './ui/button'
 import Image from 'next/image'
 import heromodel from "@/assets/heromodel.png"
 
@@ -24,7 +23,7 @@ const HeroOne = () => {
         </div>
 
         <h1 className='text-xl lg:text-[2.4rem] font-bold mt-4 lg:mt-6 text-white text-center lg:text-left  lg:leading-snug'>
-          "Unleash Your Influence: Sell <br className="hidden lg:block" /> Itineraries, Build Your Brand, <br className="hidden lg:block" /> Create Merch, and Share <br className="hidden lg:block" /> Content - All in One Hub."
+          &quot;Unleash Your Influence: Sell <br className="hidden lg:block" /> Itineraries, Build Your Brand, <br className="hidden lg:block" /> Create Merch, and Share <br className="hidden lg:block" /> Content - All in One Hub.&quot;
         </h1>
 
         <div className='flex gap-4 justify-center lg:justify-start mt-4'>

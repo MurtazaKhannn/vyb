@@ -11,7 +11,7 @@ import {
     DropdownMenuRadioItem,
     DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
-import { FaBars, FaSearch, FaUser } from "react-icons/fa";
+import { FaBars, FaUser } from "react-icons/fa";
 import { IoIosArrowDown } from 'react-icons/io'
 import { Input } from './ui/input'
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog"

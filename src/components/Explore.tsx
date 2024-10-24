@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import React from 'react'
-import darj from "@/assets/exploreone.png"
 import { Button } from './ui/button'
 import sam from "@/assets/sam.png"
 import explore from "@/assets/expore"
