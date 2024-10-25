@@ -39,6 +39,25 @@ const FAQ = () => {
           prefer.
         </AccordionContent>
       </AccordionItem>
+      <AccordionItem value="item-4">
+        <AccordionTrigger>Do I need technical skills to use the platform?</AccordionTrigger>
+        <AccordionContent>
+            No, not at all! Our platform is designed with user-friendliness in mind. You can easily navigate and set up your store without any technical expertise. It&apos;s as simple as a few clicks to get started!        </AccordionContent>
+      </AccordionItem>
+      <AccordionItem value="item-5">
+        <AccordionTrigger>Is it styled?</AccordionTrigger>
+        <AccordionContent>
+          Yes. It comes with default styles that matches the other
+          components&apos; aesthetic.
+        </AccordionContent>
+      </AccordionItem>
+      <AccordionItem value="item-6">
+        <AccordionTrigger>Is it animated?</AccordionTrigger>
+        <AccordionContent>
+          Yes. It&apos;s animated by default, but you can disable it if you
+          prefer.
+        </AccordionContent>
+      </AccordionItem>
     </Accordion>
 
       </div>
