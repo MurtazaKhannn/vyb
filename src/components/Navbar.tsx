@@ -18,7 +18,7 @@ import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog"
 const Navbar = () => {
 
     return (
-        <div className='w-full flex items-center justify-between h-16 bg-transparent lg:px-16'>
+        <div className='w-full flex items-center justify-between h-16 bg-transparent mb-4  lg:px-16'>
   {/* Logo */}
   <div className='flex items-center'>
     <Image width={60} src={logo} alt='' />
