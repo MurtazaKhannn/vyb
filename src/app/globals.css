@@ -81,3 +81,7 @@ body {
   scrollbar-width: none;  /* Firefox */
 }
 
+body {
+  font-family: 'urbanist' , sans-serif;
+}
+
