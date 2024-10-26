@@ -74,10 +74,10 @@ const Navbar = () => {
 
   {/* Desktop Menu Links */}
   <div className='hidden lg:flex font-bold gap-6 lg:gap-12 text-white text-base lg:text-[1.8vw] px-4'>
-    <p>Fav Creators</p>
-    <p>Merchandise</p>
-    <p>Brand</p>
-    <p>Digital</p>
+    <p className='cursor-pointer'>Fav Creators</p>
+    <p className='cursor-pointer'>Merchandise</p>
+    <p className='cursor-pointer'>Brand</p>
+    <p className='cursor-pointer'>Digital</p>
   </div>
 
   {/* Profile Dropdown for larger screens */}
